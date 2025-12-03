@@ -36,6 +36,13 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Anchor",
+			"name": "Ancla",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "DragnDrop",
 			"name": "Arrastrar y soltar",
 			"author": "Scirra",
@@ -55,7 +62,11 @@
 			"ATX_Case2",
 			"Texto",
 			"EntradaDeTexto_RAM",
-			"EntradaDeTexto_Gráfica"
+			"EntradaDeTexto_Gráfica",
+			"EntradaDeTexto_PSU",
+			"EntradaDeTexto_Vent",
+			"EntradaDeTexto_CPU",
+			"EntradaDeTexto_PlacaBase"
 		],
 		"subfolders": []
 	},

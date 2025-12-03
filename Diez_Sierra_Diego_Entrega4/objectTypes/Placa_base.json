@@ -1,32 +1,38 @@
 {
-	"name": "ATX_Case2",
+	"name": "Placa_base",
 	"plugin-id": "Sprite",
-	"sid": 723694738077364,
+	"sid": 932253464432846,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 173709664487820
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 1600,
-						"height": 1600,
+						"width": 753,
+						"height": 808,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 3281605,
+						"imageSpriteId": 4369164,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 415777760801757,
+				"sid": 661546023066146,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

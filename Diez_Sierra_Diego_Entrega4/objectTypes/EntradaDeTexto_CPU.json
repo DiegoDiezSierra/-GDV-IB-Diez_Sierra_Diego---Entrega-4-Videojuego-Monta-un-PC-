@@ -1,0 +1,9 @@
+{
+	"name": "EntradaDeTexto_CPU",
+	"plugin-id": "TextBox",
+	"sid": 984676071237487,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

@@ -1,32 +1,38 @@
 {
-	"name": "psu",
+	"name": "cpu",
 	"plugin-id": "Sprite",
-	"sid": 222497049323790,
+	"sid": 876626845222401,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 695578668051277
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 550,
-						"height": 343,
+						"width": 419,
+						"height": 500,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 9470128,
+						"imageSpriteId": 8289916,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 193335635792595,
+				"sid": 762697331552972,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

@@ -1,32 +1,38 @@
 {
-	"name": "cpu_cooler",
+	"name": "Grafica",
 	"plugin-id": "Sprite",
-	"sid": 577144663932583,
+	"sid": 336740298709671,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 128065867650691
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 1022,
-						"height": 1080,
+						"width": 769,
+						"height": 239,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 550789,
+						"imageSpriteId": 5004387,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 624835893342382,
+				"sid": 554567652214417,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

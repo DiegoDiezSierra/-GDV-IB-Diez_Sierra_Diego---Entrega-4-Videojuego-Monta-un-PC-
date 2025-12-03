@@ -1,0 +1,9 @@
+{
+	"name": "EntradaDeTexto_PlacaBase",
+	"plugin-id": "TextBox",
+	"sid": 228403692707040,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

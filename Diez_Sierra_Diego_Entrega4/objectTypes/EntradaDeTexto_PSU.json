@@ -1,0 +1,9 @@
+{
+	"name": "EntradaDeTexto_PSU",
+	"plugin-id": "TextBox",
+	"sid": 734110886750869,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

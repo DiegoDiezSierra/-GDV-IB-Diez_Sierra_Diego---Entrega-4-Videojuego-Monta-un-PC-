@@ -19,7 +19,14 @@
 					"sid": 136647822975679,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"ArrastrarYSoltar": {
+							"properties": {
+								"axes": "both",
+								"enabled": true
+							}
+						}
+					},
 					"instanceFolderItem": {
 						"sid": 136647822975679,
 						"expanded": true
@@ -56,7 +63,14 @@
 					"sid": 941684646075872,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"ArrastrarYSoltar": {
+							"properties": {
+								"axes": "both",
+								"enabled": true
+							}
+						}
+					},
 					"instanceFolderItem": {
 						"sid": 941684646075872,
 						"expanded": true
@@ -67,7 +81,7 @@
 						"x": 967,
 						"y": 142,
 						"width": 198.0144469762961,
-						"height": 202.919376452446,
+						"height": 202.91937645244596,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -93,7 +107,14 @@
 					"sid": 229623384855907,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"ArrastrarYSoltar": {
+							"properties": {
+								"axes": "both",
+								"enabled": true
+							}
+						}
+					},
 					"instanceFolderItem": {
 						"sid": 229623384855907,
 						"expanded": true
@@ -130,7 +151,14 @@
 					"sid": 147754803813120,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"ArrastrarYSoltar": {
+							"properties": {
+								"axes": "both",
+								"enabled": true
+							}
+						}
+					},
 					"instanceFolderItem": {
 						"sid": 147754803813120,
 						"expanded": true
@@ -140,7 +168,7 @@
 					"world": {
 						"x": 963,
 						"y": 568,
-						"width": 215.12977242570093,
+						"width": 215.12977242570096,
 						"height": 222.25346098269102,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -167,7 +195,14 @@
 					"sid": 482023441950278,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"ArrastrarYSoltar": {
+							"properties": {
+								"axes": "both",
+								"enabled": true
+							}
+						}
+					},
 					"instanceFolderItem": {
 						"sid": 482023441950278,
 						"expanded": true
@@ -250,13 +285,23 @@
 					"sid": 112734565020020,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Ancla": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "none",
+								"bottom-edge": "none",
+								"enabled": true
+							}
+						}
+					},
 					"instanceFolderItem": {
 						"sid": 112734565020020,
 						"expanded": true
 					},
 					"showing": true,
-					"locked": true,
+					"locked": false,
 					"world": {
 						"x": 585,
 						"y": 353,
@@ -664,6 +709,170 @@
 						"y": 397,
 						"width": 175,
 						"height": 31,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "EntradaDeTexto_PSU",
+					"properties": {
+						"text": "",
+						"placeholder": "",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"read-only": false,
+						"spell-check": false,
+						"type": "text",
+						"auto-font-size": true,
+						"id": "",
+						"class": ""
+					},
+					"uid": 15,
+					"sid": 878815960992762,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 878815960992762,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 51.30027304978226,
+						"y": 655.2046935714159,
+						"width": 182.4567993989482,
+						"height": 34.62208865514663,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "EntradaDeTexto_Vent",
+					"properties": {
+						"text": "",
+						"placeholder": "",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"read-only": false,
+						"spell-check": false,
+						"type": "text",
+						"auto-font-size": true,
+						"id": "",
+						"class": ""
+					},
+					"uid": 17,
+					"sid": 992759110264798,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 992759110264798,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1084.0358916984117,
+						"y": 162.13296200403312,
+						"width": 159.91735537190084,
+						"height": 34.62208865514657,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "EntradaDeTexto_CPU",
+					"properties": {
+						"text": "",
+						"placeholder": "",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"read-only": false,
+						"spell-check": false,
+						"type": "text",
+						"auto-font-size": true,
+						"id": "",
+						"class": ""
+					},
+					"uid": 19,
+					"sid": 705498290687072,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 705498290687072,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1077.7248046324721,
+						"y": 371.29531855765896,
+						"width": 171.63786626596539,
+						"height": 40.031555221637916,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "EntradaDeTexto_PlacaBase",
+					"properties": {
+						"text": "",
+						"placeholder": "",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"read-only": false,
+						"spell-check": false,
+						"type": "text",
+						"auto-font-size": true,
+						"id": "",
+						"class": ""
+					},
+					"uid": 21,
+					"sid": 304793344712702,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 304793344712702,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1074.11865234375,
+						"y": 600.2964477539062,
+						"width": 180.65364387678437,
+						"height": 43.6378662659655,
 						"originX": 0,
 						"originY": 0,
 						"color": [

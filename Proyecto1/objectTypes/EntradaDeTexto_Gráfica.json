@@ -1,0 +1,9 @@
+{
+	"name": "EntradaDeTexto_Gráfica",
+	"plugin-id": "TextBox",
+	"sid": 456605471681174,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

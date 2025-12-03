@@ -1,0 +1,54 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 963637297870681
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "ATX_Case2",
+					"sid": 337401350366846,
+					"parameters": {
+						"x": "655",
+						"y": "367"
+					}
+				}
+			],
+			"sid": 110930018982339
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "EntradaDeTexto_RAM",
+					"sid": 574160512590199,
+					"parameters": {
+						"text": "\"ram\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "ram",
+					"sid": 927169014731412,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 721031052166949
+		}
+	],
+	"sid": 928505400335234
+}
